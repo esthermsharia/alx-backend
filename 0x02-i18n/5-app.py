@@ -31,7 +31,7 @@ def index() -> str:
     """
     Return: 1-index.html
     """
-    return render_template('4-index.html')
+    return render_template('5-index.html')
 
 
 @babel.localeselector
