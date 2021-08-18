@@ -2,7 +2,7 @@
 """ Basic babel setup"""
 
 
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, g
 from flask_babel import Babel
 from os import getenv
 
